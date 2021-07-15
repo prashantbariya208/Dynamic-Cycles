@@ -1,0 +1,20 @@
+@font-face{
+    font-family: Abel;
+    src: url(./fonts/Abel-Regular.ttf);
+}
+@font-face{
+    font-family: Arvo;
+    src: url(./fonts/Arvo-Regular.ttf);
+}
+@font-face{
+    font-family: Lora;
+    src: url(./fonts/Lora-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Titillium;
+    src: url(./fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+    font-family: Arvo;
+    src: url(./fonts/Arvo-Italic.ttf);
+}
