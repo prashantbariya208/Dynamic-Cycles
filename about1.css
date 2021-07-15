@@ -1,0 +1,25 @@
+html,body{
+    margin: 0%;
+    box-sizing: bordrer-box;
+    overflow-x:hidden;
+    background-color: pink;
+}
+/*-----------global classes-----*/
+a{
+    text-decoration: none;
+}
+/*-------------------------------*/
+.nav{
+    background :white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+/*---------------------------------*/

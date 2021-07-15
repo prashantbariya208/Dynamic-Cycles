@@ -1,0 +1,471 @@
+*{
+    marhin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.head{
+    width: 97%;
+    height: 12vh;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: tomato;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+.head h1{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.head a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    float: right;
+    margin-right: 35px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+
+main{
+    width: 97%;
+    height: 70vh;
+    background-image: url(1cycle.jpg);
+    background-size: 1500px,10%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    margin-left: 16px;
+    background-color:#fff;
+    box-shadow:0px 20px 40px  rgba(0,0,0,0.3);
+    
+    overflow:hidden;
+}
+.today{
+    width: 97%;
+    height: 25vh;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 10px;
+    display: flex ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+    
+}
+.cyc{
+    height: 29px;
+    margin-top: 27px;
+    background-color: transparent;
+    border : dashed white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 600px;
+}    
+
+.cyc1{
+    height: 29px;
+    margin-top: 27px;
+    margin-right: 40px;
+    background-color: transparent;
+    border: dashed white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 600px;
+}   
+.sub{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+    padding: 4px 4px;
+}
+
+.sub1{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+    padding: 4px 4px;
+}
+menu{
+    
+    width: 97%;
+    height: 42vh;
+    margin-top: 12px;
+    margin-left: 16px;
+    color: tomato;
+    background-color:transparent;
+    box-shadow:0px 10px 50px  rgba(0,0,0,0.7);
+    overflow:hidden;
+}
+.price{
+    margin-top: 3vh;
+    width : 80%;
+    height: 9vh;
+    font-size:23px;
+    margin-left: 40px;
+}
+
+.numb{
+    margin-top: 3vh;
+    width : 80%;
+    height: 9vh;
+    font-size:23px;
+    margin-left: 40px;
+}
+
+.pass{
+    margin-top: 3vh;
+    width : 80%;
+    height: 9vh;
+    font-size:23px;
+    margin-left: 40px;
+}
+.inner_footer{
+    
+    width: 97%;
+    height: 16vh;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: tomato;
+    font-size: 32px;
+    color: white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+menu h3{
+    background-color: white;
+    width: 500px;
+}
+.price1{
+    background-color: white;
+    width: 27px;
+}
+.numb1{
+    background-color: white;
+    width: 60px;
+}
+.pass1{
+    background-color: white;
+    width: 100px;
+}
+footer.footer{
+    height: 100%;
+    width: 97%;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: black;
+    position: relative;
+}
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+footer.footer .container >div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+footer.footer .container h2{
+    color: white;
+}
+
+footer.footer .newsletter .form-element{
+    background: white;
+    display: inline-block;
+}
+footer.footer .newsletter .form-element input{
+    padding: .5rem.7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Lora);
+    font-size: 1rem;
+    width: 74%;
+}
+footer.footer .newsletter .form-element span{
+    background: white;
+    padding: .5rem .7rem;
+    cursor: pointer;
+
+}
+footer.footer .follow i{
+    color: white;
+    padding: 0.4rem;
+}
+footer.footer .rights p{
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: var(--Titillium);
+    padding-bottom: .8rem;
+}
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+footer.footer .move-up span{
+    color: rgba(0,0,0,0.3);
+}
+
+footer.footer .move-up span:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer p{
+    color: white;
+}
+@media only screen and (max-width:1300px){
+    footer.footer .container h2{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    h3{
+        font-size: 25px;
+        width: auto;
+    }
+    .today{
+        width: 97%;
+        height: 20vh;
+        
+    }
+    .head h1{
+        margin-left: 10px;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+.head a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    float: right;
+    margin-right: 15px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}    
+.cyc{
+    height: 29px;
+    margin-top: 25px;
+    background-color: white;
+    border-bottom: solid black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 250px;
+}    
+
+.cyc1{
+    height: 29px;
+    margin-top: 27px;
+    margin-right: 20px;
+    background-color: white;
+    border: solid black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 250px;
+}   
+.sub{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+    padding: 4px 4px;
+}
+
+.sub1{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+.pass{
+    
+    background-color: transparent;
+}
+    
+}
+
+@media only screen and (max-width:900px){
+    footer.footer .container h2{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    h3{
+        font-size: 80%;
+        width: auto;
+    }
+    .today{
+        width: 97%;
+        height: 20vh;
+        
+    }
+    .head h1{
+        margin-left: 10px;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+.head a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    float: right;
+    margin-right: 15px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}    
+.cyc{
+    height: 29px;
+    margin-top: 25px;
+    background-color: white;
+    border-bottom: solid black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 120px;
+}    
+
+.cyc1{
+    height: 29px;
+    margin-top: 27px;
+    margin-right: 20px;
+    background-color: white;
+    border: solid black;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+    width: 120px;
+}   
+.sub{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+    padding: 4px 4px;
+}
+
+.sub1{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+.pass{
+    
+    background-color: transparent;
+}
+    
+}
+
+
+@media only screen and (max-width:660px){
+    footer.footer .container{
+        
+        grid-template-columns: 100%;
+    }
+    footer.footer .container h2{
+      font-size: 25px;
+    }
+    h2{
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    h3{
+        font-size: 80%;
+        width: auto;
+    }
+    .today{
+        width: 97%;
+        height: 20vh;
+        
+    }
+    .head h1{
+        margin-left: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+.head a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    float: right;
+    margin-right: 15px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 17px;
+    
+}    
+.cyc{
+    height: 29px;
+    margin-top: 25px;
+    background-color: white;
+    border-bottom: solid black;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+    width: 120px;
+}    
+
+.cyc1{
+    height: 29px;
+    margin-top: 27px;
+    margin-right: 20px;
+    background-color: white;
+    border: solid black;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+    width: 120px;
+}   
+.sub{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 13px;
+    padding: 4px 4px;
+}
+
+.sub1{
+    height: 29px;
+    margin-top: 27px;
+    font-size: 13px;
+
+}
+.pass{
+    
+    background-color: transparent;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
